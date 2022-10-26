@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useContext, useState, useEffect } from "react";
 import { DataGrid } from "@material-ui/data-grid";
 
@@ -215,7 +216,7 @@ const EdgesTable = () => {
                 await calculatelistas();
               }}
             >
-              Diferente
+              Unir Componentes
             </Button>
           </div>
         </form>
